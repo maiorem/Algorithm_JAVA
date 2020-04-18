@@ -1,0 +1,2 @@
+# JavaBasicExercise
+daily algorithm
