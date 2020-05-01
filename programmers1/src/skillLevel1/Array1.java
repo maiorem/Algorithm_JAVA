@@ -10,11 +10,11 @@ import java.util.Scanner;
 public class Array1 {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		int[] arr = new int[5];
-		for (int i=0; i<arr.length; i++) {
-			arr[i] = sc.nextInt();
-		}
+		//Scanner sc=new Scanner(System.in);
+		int[] arr = {10, 2, 4, 5, 14, 100, 1, 21, 36};
+//		for (int i=0; i<arr.length; i++) {
+//			arr[i] = sc.nextInt();
+//		}
 		if (arr.length<=1) {
 			for (int i=0; i<arr.length; i++) {
 				System.out.println(solution(arr)[i]);
@@ -40,7 +40,7 @@ public class Array1 {
 					min=arr[i];
 				} 				
 			}
-			for(int i=0; i<arr.length;i++) {
+			for(int i=0; i<answer.length; i++) {
 				if(arr[i]==min) {
 					arr[i]=arr[i+1];
 				} 
