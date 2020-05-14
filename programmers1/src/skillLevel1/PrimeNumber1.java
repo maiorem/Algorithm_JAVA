@@ -14,6 +14,12 @@ public class PrimeNumber1 {
 
 	public static int solution(int n) {
 		int answer = 0;
+		int tmp = 0;
+		for (int i=2; i<=n; i++) {
+			
+		}
+		
+		
 		return answer;
 	}
 
