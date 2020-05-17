@@ -8,18 +8,13 @@ package skillLevel1;
 public class Integer1 {
 
 	public static void main(String[] args) {
-		Solutione sol = new Solutione();
-
-
-		System.out.println(sol.solution(3, 5));
+		
+		System.out.println(solution(3, 5));
 
 	}
 
-}
 
-
-class Solutione {
-	public long solution(int a, int b) {
+	public static long solution(int a, int b) {
 		long answer = 0;
 
 		if (a<b) {
