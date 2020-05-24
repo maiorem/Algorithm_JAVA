@@ -1,5 +1,5 @@
 package basicPs;
-
+//미완
 import java.util.Scanner;
 
 public class No10950 {
@@ -8,10 +8,7 @@ public class No10950 {
 
 		Scanner sc = new Scanner(System.in);
 
-		int T=sc.nextInt();
-
-
-		for(int i=0;i<=T; i++) {
+		while(sc.hasNextInt()) {
 			int A=sc.nextInt();
 			int B=sc.nextInt();
 			System.out.println(A+B);
