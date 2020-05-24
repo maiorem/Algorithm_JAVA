@@ -1,5 +1,5 @@
 package skillLevel1;
-
+//미완
 import java.util.Scanner;
 
 /*
@@ -40,7 +40,7 @@ public class Array1 {
 					min=arr[i];
 				} 				
 			}
-			for(int i=0; i<answer.length; i++) {
+			for(int i=0; i<answer.length-1; i++) {
 				if(arr[i]==min) {
 					arr[i]=arr[i+1];
 				} 
