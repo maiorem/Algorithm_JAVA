@@ -2,19 +2,17 @@ package basicPs;
 
 import java.util.Scanner;
 
-public class No10951 {
+public class No11718 {
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		
-		while(sc.hasNextInt()) {
-			int A=sc.nextInt();
-			int B=sc.nextInt();
-		
-			System.out.println(A+B);
-			
+
+		while (sc.hasNextLine()) {
+			String str=sc.nextLine();
+			System.out.println(str);
 		}
+		sc.close();
 	}
 
 }

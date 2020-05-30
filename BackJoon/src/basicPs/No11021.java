@@ -2,19 +2,24 @@ package basicPs;
 
 import java.util.Scanner;
 
-public class No10951 {
+public class No11021 {
 
 	public static void main(String[] args) {
-		
+
 		Scanner sc = new Scanner(System.in);
 		
-		while(sc.hasNextInt()) {
+		int T=sc.nextInt();
+		
+		for(int i=1; i<=T; i++) {
+			
 			int A=sc.nextInt();
 			int B=sc.nextInt();
-		
-			System.out.println(A+B);
+			
+			System.out.println("Case #"+i+": "+A+" + "+B+" = "+(A+B));
 			
 		}
+		
+
 	}
 
 }
