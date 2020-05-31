@@ -9,14 +9,19 @@ public class No11721 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int a = Integer.parseInt(sc.nextLine());
-		String b = sc.nextLine();
-		int answer = 0;
-		for(int i=0; i<a; i++) {
-			answer=answer+((int)(b.charAt(i))-48); 
+		String a = sc.nextLine();
+		int len = a.length();
+		
+		for(int i=0; i<len; i++) {
+			
+			if (i%10==0 && i!=0) {
+				System.out.println();
+			} 
+			System.out.print(a.charAt(i));
+			
+			
 		}
 		
-		System.out.println(answer);
 		
 	}
 
