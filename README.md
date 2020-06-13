@@ -17,4 +17,4 @@ daily Java algorithm
 
 | <center>레벨</center> | <center>주제</center> | <center>소스코드 첨부</center> |
 | :-------------------: | :-------------------: | :-------------------: |
-| <center>1</center> |  <center>두개의 정수가 주어졌을 때 두 정수 사이에 속하는 모든 수의 합을 구하는 함수</center> |[링크] (https://github.com/maiorem/Algorithm_JAVA/blob/master/programmers1/src/skillLevel1/Integer1.java)|
+| <center>1</center> |  <center>두 정수 사이의 합</center> | <center> [링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/programmers1/src/skillLevel1/Integer1.java) </center> |
