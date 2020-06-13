@@ -19,4 +19,7 @@ daily Java algorithm
 | :-------------------: | :-------------------: | :-------------------: |
 | <center>1</center> |  <center>두 정수 사이의 합</center> | <center> [링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/programmers1/src/skillLevel1/Integer1.java) </center> |
 || <center>주어진 정수의 각 자릿수의 합</center> | <center>[링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/programmers1/src/skillLevel1/Integer2.java)</center>|
-
+|| <center>휴대전화 뒷번호 가리기</center> | <center>[링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/programmers1/src/skillLevel1/String1.java)</center>|
+|| <center>짝수 홀수 출력</center> | <center>[링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/programmers1/src/skillLevel1/EvenOROdd.java)</center>|
+|| <center>배열의 평균 구하기</center> | <center>[링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/programmers1/src/skillLevel1/average1.java)</center>|
+|| <center>만큼 간격이 있는 n개의 숫자</center> | <center>[링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/programmers1/src/skillLevel1/Array3.java)</center>|
