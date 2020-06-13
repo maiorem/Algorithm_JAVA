@@ -6,7 +6,7 @@ daily Java algorithm
 ## BAEJOON
 | <center>분류</center> | <center>문제 번호</center> | <center>소스코드 첨부</center> |
 | :-------------------: | :-------------------: | :-------------------: |
-| <center>입출력 기본</center> | <center>--</center> | <center> [링크](https://github.com/maiorem/Algorithm_JAVA/tree/master/BackJoon/src/basicIO)</center> |
+| <center>입출력 기본</center> | <center>전체</center> | <center> [링크](https://github.com/maiorem/Algorithm_JAVA/tree/master/BackJoon/src/basicIO)</center> |
 
 | <center>분류</center> | <center>풀이 소스</center> | <center>출제 주제</center> |
 | :-------------------: | :-------------------: | :-------------------: |
