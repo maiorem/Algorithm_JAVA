@@ -18,3 +18,5 @@ daily Java algorithm
 | <center>레벨</center> | <center>주제</center> | <center>소스코드 첨부</center> |
 | :-------------------: | :-------------------: | :-------------------: |
 | <center>1</center> |  <center>두 정수 사이의 합</center> | <center> [링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/programmers1/src/skillLevel1/Integer1.java) </center> |
+|| <center>주어진 정수의 각 자릿수의 합</center> | <center>[링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/programmers1/src/skillLevel1/Integer2.java)</center>|
+
