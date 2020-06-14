@@ -10,7 +10,7 @@ daily Java algorithm
 
 | <center>분류</center> |  <center>소주제</center> |<center>문제 번호</center> |<center>소스코드 첨부</center> |
 | :-------------------: | :-------------------: | :-------------------: | :-------------------: |
-| <center>자료구조</center> |  <center>스택</center> | <center>[10828](https://www.acmicpc.net/problem/10828)</center> |<center>[링크]</center> |
+| <center>자료구조</center> |  <center>스택</center> | <center>[10828](https://www.acmicpc.net/problem/10828)</center> |<center>[링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/BackJoon/src/dataStructure/No10828.java) 라이브러리X    [링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/BackJoon/src/dataStructure/No10828_2.java) 라이브러리O </center> |
 
 
 ## Programmers
