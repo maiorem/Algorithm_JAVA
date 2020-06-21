@@ -1,4 +1,4 @@
-package codePlus;
+package math;
 
 import java.util.Scanner;
 
