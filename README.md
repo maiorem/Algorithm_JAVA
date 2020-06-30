@@ -12,6 +12,7 @@ daily Java algorithm
 | :-------------------: | :-------------------: | :-------------------: | :-------------------: |
 | <center>자료구조</center> |  <center>스택</center> | <center>[10828](https://www.acmicpc.net/problem/10828)</center> |<center>[링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/BackJoon/src/dataStructure/No10828_2.java)</center> |
 || <center>단어 뒤집기</center> | <center>[9093](https://www.acmicpc.net/problem/9093)</center> |<center>[링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/BackJoon/src/dataStructure/No9093.java)</center>|
+|| <center>괄호</center> | <center>[9012](https://www.acmicpc.net/problem/9012)</center> |<center>[링크](https://github.com/maiorem/Algorithm_JAVA/blob/master/BackJoon/src/dataStructure/No9012.java)</center>|
 
 
 ## Programmers
