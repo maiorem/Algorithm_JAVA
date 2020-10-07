@@ -1,4 +1,4 @@
-package basicIO;
+package basicArray;
 
 import java.util.Scanner;
 import java.util.StringTokenizer;
