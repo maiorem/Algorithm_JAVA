@@ -9,24 +9,29 @@ public class No1546 {
 		Scanner sc=new Scanner(System.in);
 		
 		int numOfSubject=Integer.parseInt(sc.nextLine());
-		int sumOfScore=0;
-		int[] scoresOfSubject=new int[numOfSubject];
+		float[] scoresOfSubject=new float[numOfSubject];
+		float max=0;
 		
 		for (int i=0; i<numOfSubject; i++) {
-			scoresOfSubject[i]=Integer.parseInt(sc.nextLine());
-			sumOfScore=sumOfScore+scoresOfSubject[i];
+			scoresOfSubject[i]=Float.parseFloat(sc.nextLine());
+			if (max<scoresOfSubject[i]) {
+				max=scoresOfSubject[i];
+			}
 		}
 		
-		int avOfScore=sumOfScore/3;
-		int[] newScoreOfSubject=new int[numOfSubject];
-		int newSumOfScore=0;
+		
+		float[] newScoreOfSubject=new float[numOfSubject];
+		float newSumOfScore=0;
 		
 		for (int i=0; i<numOfSubject; i++) {
-			newScoreOfSubject[i]=scoresOfSubject[i]/avOfScore*100;
+			newScoreOfSubject[i]=scoresOfSubject[i]/max*100;
+			if (newScoreOfSubject[i]>100) {
+				newScoreOfSubject[i]=100;
+			}
 			newSumOfScore=newSumOfScore+newScoreOfSubject[i];	
 		}
 		
-		int newAvOfScore=newSumOfScore/3;
+		float newAvOfScore=newSumOfScore/3;
 		
 		System.out.println(newAvOfScore);
 		
