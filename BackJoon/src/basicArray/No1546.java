@@ -1,6 +1,7 @@
 package basicArray;
 
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class No1546 {
 
@@ -9,16 +10,17 @@ public class No1546 {
 		Scanner sc=new Scanner(System.in);
 		
 		int numOfSubject=Integer.parseInt(sc.nextLine());
+		StringTokenizer st=new StringTokenizer(sc.nextLine(), " ");;
 		float[] scoresOfSubject=new float[numOfSubject];
 		float max=0;
 		
 		for (int i=0; i<numOfSubject; i++) {
-			scoresOfSubject[i]=Float.parseFloat(sc.nextLine());
+			
+			scoresOfSubject[i]=Float.parseFloat(st.nextToken());
 			if (max<scoresOfSubject[i]) {
 				max=scoresOfSubject[i];
 			}
 		}
-		
 		
 		float[] newScoreOfSubject=new float[numOfSubject];
 		float newSumOfScore=0;
@@ -31,7 +33,7 @@ public class No1546 {
 			newSumOfScore=newSumOfScore+newScoreOfSubject[i];	
 		}
 		
-		float newAvOfScore=newSumOfScore/3;
+		float newAvOfScore=newSumOfScore/numOfSubject;
 		
 		System.out.println(newAvOfScore);
 		
